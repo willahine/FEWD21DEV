@@ -1,0 +1,71 @@
+body {
+	background-color: #FFE;
+	border-width: 5px;
+	border-color: #000;
+	border-style: solid;
+	margin-left: 300px;
+	margin-right:200px;
+	max-width:539px;
+
+}
+
+hr.begin
+ {
+	width: 200px;
+	height:2px;
+	background-color: #000; 
+}
+
+h1 {
+	color:#900;
+	text-align:center;
+}
+
+/* Title of Recipe */
+
+h2 {
+	color:#021645;
+
+}
+
+img.cookie {
+	border-color: #000;
+	border-style: solid;
+	margin:10px;
+}
+
+@media only screen and (max-width: 913px) {
+	img.cookie {
+		width:300px;
+		margin:10px;
+	}
+
+hr.begin
+ {
+	width: 10px;
+	height:2px;
+	background-color: #000; 
+}
+
+
+	}
+
+article {
+	margin:10px;
+}
+
+header {
+	margin: 10px;
+}
+
+footer {
+	margin:10px;
+}
+
+h3.info  {
+	color:#887;
+}
+a {
+	color:#900;
+
+}
