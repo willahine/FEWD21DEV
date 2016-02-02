@@ -1,5 +1,35 @@
 body {
+  font-family: helvetica;
+  margin:20px;
+      border-bottom: 5px solid #222222;
+    border-top: 5px solid #222222;
+    padding:45px;
 
+
+}
+
+/* Titles */
+
+h1.sitename {
+  text-transform: uppercase;
+
+}
+
+.commonstyles h1 {
+  text-transform: uppercase;
+
+}
+
+.commonstyles h2 {
+
+}
+
+.commonstyles h3 {
+  margin-top: 42px;
+}
+
+.commonstyles h4 {
+  margin-bottom: 0;
 }
 
 .commonstyles a {
@@ -13,24 +43,14 @@ body {
 
 }
 
-.commonstyles h1 {
-
-}
-
-.commonstyles h2 {
-}
-
-.commonstyles h3 {
-  margin-top: 42px;
-}
-
-.commonstyles h4 {
-  margin-bottom: 0;
-}
+/* body and lists */
 
 .commonstyles p {
   margin-top: 0;
   margin-bottom: 27px;
+    font-family: Georgia;
+    color: #05080C;
+    font-size: 14px;
 }
 
 .commonstyles ul {
@@ -42,6 +62,8 @@ body {
 }
 
 .commonstyles li {
+  font-size:14px;
+      line-height: 20px;
 
 }
 
@@ -63,33 +85,50 @@ body {
   float: right;
 }
 
-.toc {
+.contents {
 
   max-width: 300px;
   float:right;
   margin: 0 0 20px 20px;
 }
 
-.toc .toclevel-1 {
+.li-1{
+  font-size:16px;
 
 }
 
-.toc .toclevel-1 > a {
+.li-1 > a {
+  color:#000;
 
 }
 
-.toc .toclevel-2 {
+.li-2{
+  font-size:13px;
+  color:#3344aa;
 
 }
 
-.toc .toclevel-2 > a {
+.li-2 > a {
+  color:#3344aa;
 
 }
+
+/*images*/
+
+img.map{
+  float:right;
+  padding:10px;
+
+}
+
+/*datatables*/
 
 .datatable td {
   padding: 8px 14px;
 }
 
 .datatable td:first-child{
+  font-size: 11px;
   text-transform: uppercase;
+    font-weight: bold;
 }
