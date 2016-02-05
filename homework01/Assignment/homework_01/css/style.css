@@ -27,6 +27,8 @@ h1.sitename {
 
 .commonstyles h3 {
   margin-top: 42px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   
 }
 
