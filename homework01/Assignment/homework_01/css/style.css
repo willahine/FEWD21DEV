@@ -4,6 +4,7 @@ body {
       border-bottom: 5px solid #222222;
     border-top: 5px solid #222222;
     padding:45px;
+    background: #F6F6F6;
 
 
 }
@@ -15,7 +16,7 @@ h1.sitename {
 
 }
 
-.commonstyles h1 {
+.commonstyles h1  {
   text-transform: uppercase;
 
 }
@@ -26,21 +27,12 @@ h1.sitename {
 
 .commonstyles h3 {
   margin-top: 42px;
+  
 }
 
 .commonstyles h4 {
   margin-bottom: 0;
-}
-
-.commonstyles a {
-
-}
-
-.commonstyles small {
-}
-
-.commonstyles strong {
-
+ 
 }
 
 /* body and lists */
@@ -53,6 +45,10 @@ h1.sitename {
     font-size: 14px;
 }
 
+.commonstyles a {
+  color:#000;
+}
+
 .commonstyles ul {
   list-style: square;
 }
@@ -62,8 +58,8 @@ h1.sitename {
 }
 
 .commonstyles li {
-  font-size:14px;
-      line-height: 20px;
+  font-size:16px;
+      line-height: 26px;
 
 }
 
@@ -113,6 +109,14 @@ h1.sitename {
 
 }
 
+p.bib {
+  font-family: helvetica;
+}
+
+cite {
+  font-size:18px;
+}
+
 /*images*/
 
 img.map{
@@ -125,6 +129,7 @@ img.map{
 
 .datatable td {
   padding: 8px 14px;
+  font-family:sans-serif;
 }
 
 .datatable td:first-child{
