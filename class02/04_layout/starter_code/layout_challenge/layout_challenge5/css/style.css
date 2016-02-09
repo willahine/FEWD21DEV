@@ -1,0 +1,99 @@
+/*
+ Floating Sections Code-Along
+
+ Make the header red and 100% width
+ Main should be yellow and 60% wide
+ sideBar should be green and 40% wide
+ pageFooter should be blue and 100% width
+
+ */
+
+/*
+ Floating Sections Code-Along
+
+ Make the header red and 100% width
+ Main should be yellow and 60% wide
+ sideBar should be green and 40% wide
+ pageFooter should be blue and 100% width
+
+ */
+
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.top{
+	background:black;
+
+}
+
+.challenge {
+    border: 1px solid black;
+    background: white;
+    padding: 70px;
+    margin:20px;
+    height:400px;
+    
+}
+
+.challenge3 {
+    border: 1px solid black;
+    background: white;
+    height:50px;
+    
+}
+
+.main2{
+	height:800px;
+}
+
+.logobox {
+	width:30%;
+	float:left;
+}
+
+.nav {
+	width:13%;
+	float:left;
+}
+
+.nav2{
+    height: 62px;
+    padding: 18px;
+    margin-top: 61px;
+}
+
+.sidebar2 {
+	height:200px;
+	float:left;
+
+}
+
+.sideBar {
+	width:10px;
+}
+
+.challenge2{
+    height:100px;
+    margin-right:72px;
+}
+
+.main {
+	width:70%;
+	float:left;
+}
+
+.square {
+	width:100%;
+	float:left;
+	clear:;
+}
+
+.pageFooter{
+	width:100%;
+	float:left;
+	
+}

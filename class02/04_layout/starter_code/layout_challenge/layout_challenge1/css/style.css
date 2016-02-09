@@ -8,6 +8,16 @@
 
  */
 
+/*
+ Floating Sections Code-Along
+
+ Make the header red and 100% width
+ Main should be yellow and 60% wide
+ sideBar should be green and 40% wide
+ pageFooter should be blue and 100% width
+
+ */
+
  html {
   box-sizing: border-box;
 }
@@ -15,35 +25,38 @@
   box-sizing: inherit;
 }
 
-.placeholder {
+.challenge {
     border: 1px solid black;
-    background: rgba(255,255,255,.6);
+    background: white;
     padding: 20px;
-    height: 200px;
-    margin: 10px;
+    margin:20px;
+    height:400px;
+    
+}
+
+.challenge2{
+    height:200px;
+
 
 }
-.pageHeader {
+.Header {
 	width:100%;
-	float:right;
-	background:red;
+	float:left;
 }
 
 .main {
-	width:30%;
-	float:right;
-	background:yellow;
+	width:70%;
+	float:left;
 }
 
 .sideBar {
 	width:30%;
-	float:right;
-	background:green;
+	float:left;
+	
 }
 
 .pageFooter{
-	width:30%;
-	float:right;
-	background:blue;
-	clear:both;
+	width:100%;
+	float:left;
+	
 }
