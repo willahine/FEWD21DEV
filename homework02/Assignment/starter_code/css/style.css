@@ -18,43 +18,53 @@
 body {
 }
 
-.total {
-       border: none;
-    height:400px;
-
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .header {
-     width: 100%;
-     color: white;
-     font-size: 24px;
-     line-height: 1.4;
-     font-family:'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size:100% 100%;
-      float:left;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    line-height: 1.4;
+    font-family:'Open Sans', sans-serif;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size:100% 100%;
+    padding: 10px 0 110px;
 }
 
-.sectionA {
-     width:100%;
-     color:#f0efef;
-     clear:both;
+#benefits {
+    width:100%;
+    color:#f0efef;
+    border: none;
+    line-height:1.5;
+}
 
+#benefits .overlay {
+    width: 50%;
 }
 
 .relax {
-     text-transform: bolder;
-     padding:10px;
+     font-weight: 900;
+     float:left;
 }
 
 .overlay {
-     margin-left:80px;
 }
 
 .mind {
  text-align: center;
- font-size:37px;
+ font-weight:500;
+ letter-spacing: 2px;
  
+ 
+}
+
+.header .content {
+    text-align:center;
+    clear:both;
 }
 
 .mybutton {
@@ -65,15 +75,30 @@ body {
      color:#000;
      font-family:'Open Sans', sans-serif;
      font-size:14px;
-     font-weight:bolder;
+     font-weight:900;
      padding:6px 24px;
      text-decoration:none;
 }
-.get:hover {
-background-color:yellow;
+.mybutton:hover {
+background-color:#033048;
+color:white;
 }
-.get:active {
-     position:relative;
-     top:1px;
+
+h2.benefits {
+    color:#033048;
+    font-size:20px;
+    font-weight:500;
+    padding-top:50px;
+    letter-spacing:2px;
+}
+
+.ben {
+    color:#606161;
+    font-weight:300;
+
+}
+
+ul.class {
+    color:;
 }
 
