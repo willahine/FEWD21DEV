@@ -1,178 +1,159 @@
 /* Box Model Hack */
+
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    
+    box-sizing: border-box;
+    /* IE */
 }
-
 /* Clear fix hack */
+
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-
-body {
-}
-
 .container {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
 }
-
+/* HEADER */
 .header {
     width: 100%;
     color: white;
     font-size: 24px;
     line-height: 1.4;
-    font-family:'Open Sans', sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size:100% 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background-size: 100% 100%;
     padding: 10px 0 110px;
 }
-
+.relax {
+    font-weight: 900;
+    float: left;
+}
+.mind {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.header .content {
+    text-align: center;
+    clear: both;
+}
+.mybutton {
+    background-color: yellow;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+.mybutton:hover {
+    background-color: #033048;
+    color: white;
+}
+/* SECTION 1 */
 #benefits {
-    width:100%;
-    color:#f0efef;
+    width: 100%;
+    color: #f0efef;
     border: none;
-    line-height:1.5;
+    line-height: 1.5;
     padding: 20px 0 20px;
 }
-
 #benefits .overlay {
     width: 50%;
 }
 
-.relax {
-     font-weight: 900;
-     float:left;
-}
-
-.overlay {
-}
-
-.mind {
- text-align: center;
- font-weight:500;
- letter-spacing: 2px;
- 
- 
-}
-
-.header .content {
-    text-align:center;
-    clear:both;
-}
-
-.mybutton {
-     background-color:yellow;
-     border-radius: 5px;
-     display:inline-block;
-     cursor:pointer;
-     color:#000;
-     font-family:'Open Sans', sans-serif;
-     font-size:14px;
-     font-weight:900;
-     padding:6px 24px;
-     text-decoration:none;
-}
-.mybutton:hover {
-background-color:#033048;
-color:white;
-}
-
 h2.benefits {
-    color:#033048;
-    font-size:20px;
-    font-weight:500;
-    letter-spacing:2px;
+    color: #033048;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
-
 .ben {
-    color:#606161;
-    font-weight:300;
-    font-size:13px;
-
+    color: #606161;
+    font-weight: 300;
+    font-size: 13px;
 }
-
+/* SECTION 2 */
 #quotes {
     padding: 70px 0 70px;
     color: #fff;
-  width:100%;
+    width: 100%;
     border: none;
-    line-height:1.5;
-    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-
+    line-height: 1.5;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
 }
-
 #quotes .overlay {
-    width:100%;
+    width: 100%;
 }
-
 .testimony {
     text-align: center;
-     width: 400px;
+    width: 400px;
     margin: 0 auto;
     font-size: 18px;
 }
-
 .testimony blockquote {
     font-weight: 300;
     font-style: italic;
-   
 }
-
 p.person {
-    font-weight:900;
+    font-weight: 900;
 }
 
+/* SIGN UP */
 #signup {
     padding: 20px 0 20px;
-  width:100%;
+    width: 100%;
     border: none;
-    background-color:yellow;
+    background-color: yellow;
 }
 .mybuttonB {
-     background-color:#033048;
-     border-radius: 5px;
-     display:inline-block;
-     cursor:pointer;
-     color:#fff;
-     font-family:'Open Sans', sans-serif;
-     font-size:14px;
-     font-weight:900;
-     padding:6px 24px;
-     text-decoration:none;
+    background-color: #033048;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 6px 24px;
+    text-decoration: none;
 }
 .mybuttonB:hover {
-background-color:#ffffff;
-color:black;
+    background-color: #ffffff;
+    color: black;
 }
-
+/* FOOTER */
 #footer {
-    background-color:black;
-    width:100%;
+    background-color: black;
+    width: 100%;
     padding: 10px 0 10px;
-    color:white;
-
+    color: white;
 }
-
 #footer .relax {
-    color:yellow;
-    float:none;
-    font-size:24px;
+    color: yellow;
+    float: none;
+    font-size: 24px;
 }
-
 .footer {
     text-align: center;
 }
-
 p.copyright {
-    font-size:9px;
-    font-weight:500;
-    margin-top:20px;
+    font-size: 9px;
+    font-weight: 500;
+    margin-top: 20px;
 }
