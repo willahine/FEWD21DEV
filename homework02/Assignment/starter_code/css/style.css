@@ -40,6 +40,7 @@ body {
     color:#f0efef;
     border: none;
     line-height:1.5;
+    padding: 20px 0 20px;
 }
 
 #benefits .overlay {
@@ -88,17 +89,90 @@ h2.benefits {
     color:#033048;
     font-size:20px;
     font-weight:500;
-    padding-top:50px;
     letter-spacing:2px;
 }
 
 .ben {
     color:#606161;
     font-weight:300;
+    font-size:13px;
 
 }
 
-ul.class {
-    color:;
+#quotes {
+    padding: 70px 0 70px;
+    color: #fff;
+  width:100%;
+    border: none;
+    line-height:1.5;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+
 }
 
+#quotes .overlay {
+    width:100%;
+}
+
+.testimony {
+    text-align: center;
+     width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.testimony blockquote {
+    font-weight: 300;
+    font-style: italic;
+   
+}
+
+p.person {
+    font-weight:900;
+}
+
+#signup {
+    padding: 20px 0 20px;
+  width:100%;
+    border: none;
+    background-color:yellow;
+}
+.mybuttonB {
+     background-color:#033048;
+     border-radius: 5px;
+     display:inline-block;
+     cursor:pointer;
+     color:#fff;
+     font-family:'Open Sans', sans-serif;
+     font-size:14px;
+     font-weight:900;
+     padding:6px 24px;
+     text-decoration:none;
+}
+.mybuttonB:hover {
+background-color:#ffffff;
+color:black;
+}
+
+#footer {
+    background-color:black;
+    width:100%;
+    padding: 10px 0 10px;
+    color:white;
+
+}
+
+#footer .relax {
+    color:yellow;
+    float:none;
+    font-size:24px;
+}
+
+.footer {
+    text-align: center;
+}
+
+p.copyright {
+    font-size:9px;
+    font-weight:500;
+    margin-top:100px;
+}
