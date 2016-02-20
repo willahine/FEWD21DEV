@@ -1,7 +1,5 @@
-
-
-
 /* Box Model Hack */
+
 * {
     -moz-box-sizing: border-box;
     /* Firexfox */
@@ -26,125 +24,101 @@
     width: 980px;
     margin: 0px auto;
 }
-
 body {
-  font-size: 24px;
-  line-height: 1.4;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  background: #f0efef;
-
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background: #f0efef;
 }
-
 .title {
-    font-size:40px;
-    font-weight:500;
-    color:#033048;
+    font-size: 40px;
+    font-weight: 500;
+    color: #033048;
 }
-
 .more {
-    color:#033048;
-    font-size:24px;
-    text-align:right;
-    font-weight:500;
+    color: #033048;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 500;
 }
-
-
 /* HEADER */
+
 header {
     background: #033048;
-  overflow: hidden;
+    overflow: hidden;
 }
-
 header a {
-  text-decoration: none;
-  color:yellow;
+    text-decoration: none;
+    color: yellow;
 }
-
 header .logo {
-    color:white;
+    color: white;
     float: left;
 }
 .logo {
     font-weight: 900;
-    font-size:48px;
-    
+    font-size: 48px;
 }
-
 .header .content {
     text-align: center;
     clear: both;
 }
-
 nav li {
-    color:yellow;
+    color: yellow;
 }
-
 header nav {
-    float:right;
-    margin:15px;
+    float: right;
+    margin: 15px;
 }
-
 header nav ul li {
-  display: inline-block;
-  margin: 0 0 0 40px;
-  font-size: 24px;
-  padding-top:10px;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    font-size: 24px;
+    padding-top: 10px;
 }
-
-
 /*Sidebar*/
-#sidebar {
-    width:240px;
-  display: inline-block;
-  float:right;
-   margin-top:46px;
-   vertical-align: top;
-}
 
+#sidebar {
+    width: 240px;
+    display: inline-block;
+    float: right;
+    margin-top: 46px;
+    vertical-align: top;
+}
 aside ul {
     list-style-type: none;
-    font-size:24px;
-    font-weight:300;
+    font-size: 24px;
+    font-weight: 300;
 }
-
 aside li {
-    margin:10px;
+    margin: 10px;
 }
-
 aside h1 {
-     font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 15px;
-  color: #043049;
-  margin-left: 42px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #043049;
+    margin-left: 42px;
 }
-
-
-
 #posts {
-   width: 700px;
-  display: inline-block;
-  margin-right: 20px;
-  margin:50px;
-  vertical-align: top; 
-  margin-top:30px;
+    width: 700px;
+    display: inline-block;
+    margin-right: 20px;
+    margin: 50px;
+    vertical-align: top;
+    margin-top: 30px;
 }
-
 .post {
-  border-bottom: 1px solid #043049;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
+    border-bottom: 1px solid #043049;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
-
-
 .about {
-        width: 209px;
+    width: 209px;
     font-size: 22px;
     margin-left: 36px;
 }
-
-
 /* SIGN UP */
 
 .button {
@@ -157,13 +131,13 @@ aside h1 {
     font-weight: 900;
     padding: 6px 24px;
     text-decoration: none;
-    }
+}
 #signup {
     padding: 20px 0 20px;
     width: 100%;
     border: none;
     background-color: #f9e42e;
-    text-align:center;
+    text-align: center;
 }
 #signup .button {
     background-color: #033048;
@@ -174,6 +148,7 @@ aside h1 {
     color: black;
 }
 /* FOOTER */
+
 #footer {
     background-color: black;
     width: 100%;
@@ -193,21 +168,17 @@ p.copyright {
     font-weight: 500;
     margin-top: 20px;
 }
-
 .ad {
-    background:white;
-     width: 215px;
+    background: white;
+    width: 215px;
     font-size: 39px;
     margin: 36px;
-        height: 400px;
-        padding:10px;
-        text-align: center;
-        font-weight:600;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
 }
-
 .about-relaxr {
-  font-size:22px;
-  font-weight:300;
+    font-size: 22px;
+    font-weight: 300;
 }
-
-
