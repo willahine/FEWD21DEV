@@ -28,7 +28,7 @@
 }
 
 body {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.4;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -46,20 +46,9 @@ body {
     color:#033048;
     font-size:24px;
     text-align:right;
+    font-weight:500;
 }
 
-/* Here's an example of the button class I described in your html file. */
-.button {
-    border-radius: 5px;
-    display: inline-block;
-    cursor: pointer;
-    color: #000;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 900;
-    padding: 6px 24px;
-    text-decoration: none;
-}
 
 /* HEADER */
 header {
@@ -67,28 +56,9 @@ header {
   overflow: hidden;
 }
 
-#sidebar {
-    width:240px;
-  display: inline-block;
-  float:right;
-   margin-top:30px;
-   vertical-align: top;
-}
-
-aside ul {
-    list-style-type: none;
-}
-
-aside li {
-    margin:10px;
-}
-
-aside h1 {
-     font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 15px;
-  color: #043049;
-  margin-left: 42px;
+header a {
+  text-decoration: none;
+  color:yellow;
 }
 
 header .logo {
@@ -100,11 +70,7 @@ header .logo {
     font-size:48px;
     
 }
-.mind {
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
+
 .header .content {
     text-align: center;
     clear: both;
@@ -123,16 +89,38 @@ header nav ul li {
   display: inline-block;
   margin: 0 0 0 40px;
   font-size: 24px;
+  padding-top:10px;
 }
 
-header .button {
-    background-color: #f9e42e;
-    
+
+/*Sidebar*/
+#sidebar {
+    width:240px;
+  display: inline-block;
+  float:right;
+   margin-top:46px;
+   vertical-align: top;
 }
-header .button:hover {
-    background-color: #033048;
-    color: white;
+
+aside ul {
+    list-style-type: none;
+    font-size:24px;
+    font-weight:300;
 }
+
+aside li {
+    margin:10px;
+}
+
+aside h1 {
+     font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #043049;
+  margin-left: 42px;
+}
+
+
 
 #posts {
    width: 700px;
@@ -149,63 +137,33 @@ header .button:hover {
   margin-bottom: 40px;
 }
 
-h2.benefits {
-    color: #033048;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-.ben {
-    color: #606161;
-    font-weight: 300;
-    font-size: 13px;
-}
 
 .about {
         width: 209px;
     font-size: 22px;
     margin-left: 36px;
 }
-.hide {
-    display: none;
-    margin-top: 30px;
-    }
-/* SECTION 2 */
-#quotes {
-    padding: 70px 0 70px;
-    color: #fff;
-    width: 100%;
-    border: none;
-    line-height: 1.5;
-    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
-    /* I'm adding in a background-size of cover here. This will allow for the background
-    image to stretch aross the entire section.
-    */
-    background-size: cover;
-}
-#quotes .overlay {
-    width: 100%;
-}
-.testimony {
-    text-align: center;
-    width: 400px;
-    margin: 0 auto;
-    font-size: 18px;
-}
-.testimony blockquote {
-    font-weight: 300;
-    font-style: italic;
-}
-p.person {
-    font-weight: 500;
-}
+
 
 /* SIGN UP */
+
+.button {
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 6px 24px;
+    text-decoration: none;
+    }
 #signup {
     padding: 20px 0 20px;
     width: 100%;
     border: none;
     background-color: #f9e42e;
+    text-align:center;
 }
 #signup .button {
     background-color: #033048;
@@ -246,4 +204,10 @@ p.copyright {
         text-align: center;
         font-weight:600;
 }
+
+.about-relaxr {
+  font-size:22px;
+  font-weight:300;
+}
+
 
