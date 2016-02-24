@@ -1,0 +1,231 @@
+/* Box Model Hack */
+
+* {
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    
+    box-sizing: border-box;
+    /* IE */
+}
+/* Clear fix hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.container2 {
+    width: 980px;
+    margin: 0px auto;
+}
+body {
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background: #f0efef;
+}
+.title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #033048;
+}
+.more {
+    color: #033048;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 500;
+}
+/* HEADER */
+
+header {
+    background: #033048;
+    overflow: hidden;
+}
+header a {
+    text-decoration: none;
+    color: yellow;
+}
+header .logo {
+    color: white;
+    float: left;
+}
+.logo {
+    font-weight: 900;
+    font-size: 48px;
+}
+.header .content {
+    text-align: center;
+    clear: both;
+}
+nav li {
+    color: yellow;
+}
+header nav {
+    float: right;
+    margin: 15px;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 0 0 40px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+/*Sidebar*/
+
+#sidebar {
+    width: 240px;
+    display: inline-block;
+    float: right;
+    margin-top: 46px;
+    vertical-align: top;
+}
+aside ul {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 300;
+}
+aside li {
+    margin: 10px;
+}
+aside h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #043049;
+    margin-left: 42px;
+}
+#posts {
+    width: 603px;
+    display: inline-block;
+    margin-right: 20px;
+    margin: 50px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+.post {
+    border-bottom: 1px solid #043049;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.about {
+    width: 209px;
+    font-size: 22px;
+    margin-left: 36px;
+}
+/* SIGN UP */
+
+.button {
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+#signup {
+    padding: 20px 0 20px;
+    width: 100%;
+    border: none;
+    background-color: #f9e42e;
+    text-align: center;
+}
+#signup .button {
+    background-color: #033048;
+    color: white;
+}
+#signup .button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* FOOTER */
+
+#footer {
+    background-color: black;
+    width: 100%;
+    padding: 10px 0 10px;
+    color: white;
+}
+#footer .relax {
+    color: #f9e42e;
+    float: none;
+    font-size: 24px;
+}
+.footer {
+    text-align: center;
+}
+p.copyright {
+    font-size: 9px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.ad {
+    background: white;
+    width: 215px;
+    font-size: 39px;
+    margin: 36px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.about-relaxr {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.hide {
+  display: none;
+}
+
+.more, .less {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.posts {
+  width: 700px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+.post {
+  border-bottom: 1px solid #043049;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.readmore, .readless {
+  text-align: right;
+}
+.readmore a, .readless a {
+  color: #043049;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
