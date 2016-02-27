@@ -3,14 +3,14 @@ console.log( "ready!" );
 
     $('.readmore').click(function(){
         event.preventDefault();
-        $('#show-this-on-click').slideDown();
+        $('#show-me').slideDown();
         $('.readmore').hide();
         $('.readless').show();
     });
 
     $('.readless').click(function(){
         event.preventDefault();
-        $('#show-this-on-click').slideUp();
+        $('#show-me').slideUp();
         $('.readless').hide();
         $('.readmore').show();
     });

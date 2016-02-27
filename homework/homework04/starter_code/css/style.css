@@ -20,10 +20,7 @@
     line-height: 0;
     height: 0;
 }
-.container2 {
-    width: 980px;
-    margin: 0px auto;
-}
+
 body {
     font-size: 24px;
     line-height: 1.4;
@@ -42,7 +39,6 @@ body {
     text-align: right;
     font-weight: 500;
 }
-/* HEADER */
 
 header {
     background: #033048;
@@ -77,7 +73,6 @@ header nav ul li {
     font-size: 24px;
     padding-top: 10px;
 }
-/*Sidebar*/
 
 #sidebar {
     width: 240px;
@@ -101,14 +96,7 @@ aside h1 {
     color: #043049;
     margin-left: 42px;
 }
-#posts {
-    width: 603px;
-    display: inline-block;
-    margin-right: 20px;
-    margin: 50px;
-    vertical-align: top;
-    margin-top: 30px;
-}
+
 .post {
     border-bottom: 1px solid #043049;
     padding-bottom: 40px;
@@ -147,7 +135,6 @@ aside h1 {
     background-color: #ffffff;
     color: black;
 }
-/* FOOTER */
 
 #footer {
     background-color: black;
@@ -187,11 +174,6 @@ p.copyright {
   display: none;
 }
 
-.more, .less {
-  text-align: right;
-  margin-top: 30px;
-}
-
 .main {
   margin-top: 80px;
 }
@@ -205,11 +187,7 @@ p.copyright {
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
-}
-.post {
-  border-bottom: 1px solid #043049;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
+
 }
 .readmore, .readless {
   text-align: right;
