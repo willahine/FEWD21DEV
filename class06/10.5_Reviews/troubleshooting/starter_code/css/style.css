@@ -135,3 +135,6 @@ a {
 .breedContainerLG .breedImageFrame {
     height: auto;
 }
+.directory {
+    text-transform: uppercase;
+}

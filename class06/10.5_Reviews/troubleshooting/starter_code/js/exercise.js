@@ -1,10 +1,15 @@
 jQuery(document).ready(function(){
-    jQuery(".breedContainer .tigger").on("cluck",function(){
-        jQuery(this).parent().toggleClass("breedContainerLG");
-        if(jQuery(this).attr('src') == "img/240px-Gnome-window-close.svg.png"){
-            jQuery(this).attr('src',"img/48px-Gnome-list-add.svg.png");
-        }else{
-            jQuery(this).attr('src',"img/240px-Gnome-window-close.svg.png");
-        }
-    });
+    $('.breedContainer').click(makeImagePop);
+
 });
+
+
+function makeImagePop() {
+    $(this).toggleClass("breedContainerLG");
+    if($(this).find('.toggler').attr('src') == "img/240px-Gnome-window-close.svg.png"){
+        $(this).find('.toggler').attr('src', "img/48px-Gnome-list-add.svg.png");
+    }else{
+        $(this).find('.toggler').attr('src', "img/240px-Gnome-window-close.svg.png");
+    }
+}
+
